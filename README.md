@@ -18,3 +18,50 @@ First, clone the LiveLipNet-Duo repository to your local machine:
 ```bash
 git clone https://github.com/33ron33/LiveLipNet-Duo.git
 cd LiveLipNet-Duo
+```
+
+## Create and Activate a Virtual Environment
+
+Create a virtual environment nmaes 'LiveLipNet-env' within the repository directory:
+
+```bash
+python -m venv LiveLipNet-env
+```
+
+Activate the Virtual Environment 
+- On macOS/Linux:
+```bash
+source LiveLipNet-env/bin/activate
+```
+- On Windows:
+```bash
+LiveLipNet-env\Scripts\activate
+```
+## Insatll and Verify Dependencies 
+Install the project dependencies from the 'requirements.txt' file:
+```bash
+pip install -r requirements.txt
+```
+
+Verify Dependencies:
+```bash
+pip list
+```
+## Setting Up IPython Kernel
+
+To set up the IPython kernel for the virtual environment, run the following command:
+
+```bash
+python -m ipykernel install --name=LiveLipNet-env
+```
+
+# Deactivate the Virtual Environment-
+
+```bash
+deactivate
+```
+
+  
+
+
+
